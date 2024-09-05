@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman web</title>
+    <style>
+        body {
+            background-image: url(/background.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;h
+        }
+        h1 {
+            text-align: center;
+            color: orange;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        .top-line {
+            border-top: 2px solid blue;
+        }
+        .bottom-line {
+            border-bottom: 2px solid red;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+            padding-top: 10px;
+        }
+        .image-container::before {
+            content: '';
+            display: block;
+            width: 200px; 
+            height: 2px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            left: -40px; 
+        }
+        .image {
+            border: 5px solid black;
+            width: 150px;
+            display: block;
+        }
+        .container {
+            text-align: right;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Halaman Web saya</h1>
+    <div class="content top-line bottom-line">
+        <p>TKJ adalah singkatan dari Teknik Komputer Jaringan. TKJ merupakan kejuruan yang mempelajari tentang cara merakit komputer, mengenal dan mempelajari komponen hardware apa saja yang ada di dalam komputer, merakit komputer serta fokus mempelajari jaringan dasar. Tidak hanya itu selama tiga tahun belajar di TKJ Anda akan belajar sistem kerja jaringan dan pemograman web serta meng-administrasi komputer jaringan. Kejuruan TKJ hanya ada di STM/SMK, sampai saat ini jurusan TKJ merupakan jurusan yang sangat populer dan banyak diminati selain RPL dan juga jurusan Multimedia.</p>
+        <p>Salah satu pengalaman berharga saya adalah saat kami diajarkan untuk merancang dan mengimplementasikan jaringan lokal sederhana. Kami bekerja dalam tim untuk merencanakan topologi jaringan, menghubungkan perangkat keras, mengatur konfigurasi IP address, dan menguji konektivitas jaringan. Proyek ini memberikan wawasan yang berharga tentang bagaimana jaringan komputer beroperasi dan pentingnya kerja sama tim dalam menyelesaikan tugas..</p>
+        <p>pengalaman saya di jurusan TKJ telah memberikan landasan yang kokoh dalam pemahaman teknologi komputer dan jaringan, serta keterampilan kolaboratif dan problem-solving yang sangat berharga untuk karir masa depan saya dalam dunia teknologi informasi.".</p>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="/hnki.png" alt="Kittens" class="image">
+        </div>
+    </div>
+</body>
+</html>
